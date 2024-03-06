@@ -5,5 +5,9 @@ export const defaultTheme = {
         gray20: '#9e9e9e',
         gray10: '#DFDFDF',
         gray: '#F0F0F0',
+        red: '#ee00008d'
+    },
+    fontFamily: {
+        cinzelDecorative: '"Cinzel Decorative", serif'
     }
 }

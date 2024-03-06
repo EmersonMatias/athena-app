@@ -58,7 +58,7 @@ table {
     box-sizing: border-box;
 }
 
-body{
+html{
     font-size: 62.5%;
     font-family: "Poppins", sans-serif;
     background-color:${props => props.theme.colors.black};
