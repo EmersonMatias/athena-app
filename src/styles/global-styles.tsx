@@ -1,5 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
+/*
+!Breakpoints
+* 1281 Larger
+* 801 - 1280 Little Desktop
+* 481 - 800 Table
+* 0 - 480 Mobile
+
+*/
+
 const GlobalStyle = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,9 +54,15 @@ table {
 	border-spacing: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
 
-html{
+body{
     font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    background-color:${props => props.theme.colors.black};
+    color: ${props => props.theme.colors.white};
 }
 `
 
