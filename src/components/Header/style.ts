@@ -6,9 +6,11 @@ export const Header = styled.header`
     right: 0;
     padding: 2.4rem 16rem;
     gap: 2.4rem;
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: center;
+    z-index: 3;
+
     //background-color: gray;
 
     @media (max-width: 900px){
